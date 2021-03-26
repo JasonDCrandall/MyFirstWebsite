@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(204, 228, 255);
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-family: "Bad Script", cursive;
+  margin: 50px auto 0px auto;
+  color: #426baa;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: #426baa;
+  font-weight: normal;
+}
+
+h3 {
+  color: #4b6386;
+}
+
+a {
+  color: #4b6386;
+  text-decoration: none;
+}
+
+p {
+    color: #40514e;
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 10%;
+    border-color: #a8b1b1;
+}
+
+.mountain-img {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.btn {
+    background-image: linear-gradient(to top, #4b6386,#6b90c7);
+    padding: 10px;
+    color: #edfdfd;
+    position: relative;
+    top: 25px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to top, #6b90c7,#eaf6f6);
+}
+
+.footer-link {
+    padding: 0 20px;
+}
+
+.footer-link:hover {
+    color: #edfdfd;
+}
+
+.cloud-top {
+  position: absolute;
+  right: 27%;
+  top: 50px;
+  width: 15%;
+}
+
+.cloud-bot {
+  position: absolute;
+  left: 20%;
+  width: 15%;
+}
+
+.top-container {
+  background-color: #87a2ca;
+  margin: 0;
+  padding-top: 100px;
+  position: relative;
+}
+
+.profile {
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.skills {
+    margin: 100px 0 100px 0;
+}
+
+.contact-me {
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.bottom-container {
+    padding: 50px 0 20px;
+    background-color: #6b90c7;
+}
+
+.comp-icon {
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.write-icon {
+    border-radius: 100%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile-icon {
+    border-radius: 100%;
+    width: 30%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+}
+
+.copyright {
+    color: #eaf6f6;
+    padding: 20px 0;
+}
